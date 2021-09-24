@@ -1,0 +1,15 @@
+﻿<UserControl x:Class="SkoleGUI.PersonerList"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:local="clr-namespace:SkoleGUI"
+             mc:Ignorable="d"
+             d:DesignHeight="450" d:DesignWidth="800">
+    <DockPanel>
+        <WrapPanel Orientation="Vertical">
+            <ListBox Name="boxList" Height="200" Width="300" />
+            <Button Content="Search" Margin="20" Click="searchButton_Click" />
+        </WrapPanel>
+    </DockPanel>
+</UserControl>
